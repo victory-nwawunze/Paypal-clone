@@ -1,12 +1,12 @@
 
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import Logo from "./images/paypal-logo-removebg-preview.png"
+import HomeLayout from './components/Layout/HomeLandingPageComponent/HomeLayout';
+
 
 function App() {
   return (
     <div className="App">
- <Navbar logo={Logo} navText="Personal"  LoginBtn="Log in" signUpBtn="Sign up" />
+    <HomeLayout />
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.banner-Bg-Img-style{
+    background-image: url("/src//images/pexels-anete-lusina-6353673.jpg");
+    background-position: center 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.banner-heading-style{
+    padding-top: 10%;
+    color: #fff;
+    font-size: 40px;
+}
+.signUp-Btn-style{
+    margin-top: 4%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #0070BA;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    text-transform: capitalize;
+}
+.Business-acct-btn-style{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.Business-acct-btn-style > span{
+    color: #fff;
+    font-weight: bolder;
+    font-family: 14px;
+}

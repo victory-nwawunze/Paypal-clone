@@ -3,8 +3,7 @@ import React from "react";
 import "./Navbar.css"
 import { AiOutlineDown } from 'react-icons/ai';
 const Navbar = (props) => {
-    const {logo,navText,IconArrD ,LoginBtn,signUpBtn} = props
-    console.log(IconArrD)
+    const {logo,navText,LoginBtn,signUpBtn} = props
   return (
     <div>
         <div className="navbar-container-style">
