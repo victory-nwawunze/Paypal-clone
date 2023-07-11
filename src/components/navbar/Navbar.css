@@ -21,6 +21,8 @@ li{
     list-style: none;
     padding-right: 5px;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .login-btn-style{
     background-color: #ffff;
