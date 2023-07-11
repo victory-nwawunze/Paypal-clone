@@ -1,6 +1,51 @@
 .navbar-container-style{
-    
+   margin-top: 8px;
+   margin-bottom: 10px;
+   margin-left: 90px;
+   margin-right: 90px;
 }
 .Logo-style{
-    width: 15%;
+    width: 98px;
+    cursor: pointer;
+}
+.navbar-flex-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-link{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.login-btn-style{
+    background-color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 23px;
+    padding-left: 23px;
+    margin-right: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid #0070BA;
+    color: #0070BA;
+    font-weight: bold;
+    font-size: 13px;
+}
+.sign-up-btn-style{
+    background-color: #0070BA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 23px;
+    padding-left: 23px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid #0070BA;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 13px;
 }
