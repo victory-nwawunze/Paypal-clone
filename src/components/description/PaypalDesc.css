@@ -1,0 +1,36 @@
+.individual-styles{
+    text-align: center;
+    margin-top: 5%;
+}
+.individual-styles > h4{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.Individual-Img-style{
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+.individual-styles > h5{
+   font-size: 25px;
+   padding-bottom: 20px;
+}
+.individual-styles > p{
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.individual-styles > button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 20px;
+    border: 1px solid #0070BA;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #fff;
+    color: #0070BA;
+    margin-bottom: 5%;
+}

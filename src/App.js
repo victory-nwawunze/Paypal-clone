@@ -1,11 +1,12 @@
 
 import './App.css';
-import HomeLayout from './components/Layout/HomeLandingPageComponent/HomeLayout';
+import HomeLayout from './Layout/HomeLandingPageComponent/HomeLayout';
+// import HomeLayout from './components/Layout/HomeLandingPageComponent/HomeLayout';
 
 
 function App() {
   return (
-    <div className="App">
+    <div>
     <HomeLayout />
     </div>
   );
