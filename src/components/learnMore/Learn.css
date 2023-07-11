@@ -1,0 +1,77 @@
+.Learn-container-style{
+    background-color: #F7F9FA;
+}
+.learning-heading-style{
+    padding-top: 60px;
+    text-align: center;
+}
+.buyer-text-styles{
+    padding-top: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.learning-card-container-style{
+    margin-top: 30px;
+}
+.learning-card-flex-style{
+    display: flex;
+    justify-content: space-around;
+}
+.learning-card-one-flex-style{
+    display: flex;
+    align-items: center;
+}
+.Righ-iconstyle{
+    padding-left: 40px;
+    color: #CDCDCE;
+}
+.learning-card-text-container-style{
+    padding-top: 15px;
+}
+.learning-card-text-flex-style{
+    display: flex;
+    justify-content: space-between;
+}
+.textOne-flex-style{
+    display: flex;
+    align-items: center;
+}
+.textNumberOne-style{
+    background-color: #F7F9FA;
+    border: 1px solid #CDCDCE;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50%;
+}
+.textOne-container-style{
+    margin-left: 30px;
+}
+.textOne-style{
+    margin-left: 20px;
+}
+.textOne-style > span{
+    color: #0081CC;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.LearnMoreBtn-container-style{
+    margin-top: 50px;
+    text-align: center;
+}
+.LearnMoreBtn-container-style > button{
+    background-color: #F7F9FA;  
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 20px;
+    border: 1px solid #0070BA;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #0070BA;
+    margin-bottom: 5%;
+}

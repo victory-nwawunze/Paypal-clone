@@ -5,6 +5,8 @@ import Navbar from '../../components/navbar/Navbar'
 import Banner from "../../components/banner/Banner";
 import PaypalDesc from "../../components/description/PaypalDesc";
 import IndividualImage from '../../images/1-individuals.jpg'
+import Learn from "../../components/learnMore/Learn";
+
 function HomeLayout() {
   return (
     <div>
@@ -22,6 +24,7 @@ function HomeLayout() {
       reasonText="Find out why we have more than 200M active accounts worldwide."
       learnMoreBtn="learn more"
        />
+      <Learn />
     </div>
   );
 }
