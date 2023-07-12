@@ -9,7 +9,7 @@
 }
 .footer-container-style{
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -52,4 +52,9 @@ li{
 .about-style{
     padding-top: 10px;
     color: #7F7173;
+}
+.paypal-footer-text-container-style{
+    margin-top: 25px;
+    color: #7F7173;
+    font-size: 12px;
 }
