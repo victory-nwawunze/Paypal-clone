@@ -2,10 +2,11 @@
     background-color: #003087;
     padding-left: 70px ;
     padding-right: 70px ;
+    padding-bottom: 40px;
 }
 .heading-text-style{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     font-size: 40px;
     color: #ffff;
 }
@@ -37,7 +38,7 @@
     cursor: pointer;
     font-weight: bolder;
     color: white;
-    font-size: 13px;
+    font-size: 14px;
     background-color: #003087;
     border: none;
     text-decoration: dashed;
