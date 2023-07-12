@@ -10,6 +10,7 @@ import CardOne from "../../images/buyonline_browser1.png";
 import CardTwo from "../../images/buyonline_browser2.png";
 import CardThree from "../../images/buyonline_browser3.png";
 import CustomersBanner from "../../components/customersBannerComponent/CustomersBanner";
+import Getstarted from "../../components/getStartedBanner/Getstarted";
 
 function HomeLayout() {
   return (
@@ -55,8 +56,8 @@ function HomeLayout() {
       bannerText={`Join 200M 
        active PayPal  accounts worldwide.`}
       heading = "Safer and protected"
-
        />
+       <Getstarted />
     </div>
   );
 }
