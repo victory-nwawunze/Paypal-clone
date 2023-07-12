@@ -4,7 +4,6 @@ import "./PaypalDesc.css";
 const PaypalDesc = (props) => {
   const { headingText, img, headingDescriptionText, reasonText, learnMoreBtn } =
     props;
-    console.log(props)
   return (
     <div className="individual-styles">
       <h4>{headingText}</h4>

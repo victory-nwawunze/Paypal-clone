@@ -3,7 +3,6 @@ import "./Banner.css";
 const Banner = (props) => {
   const { headingText, signUpBtnText, businessText, openBusinessAcctText } =
     props;
-  console.log(props);
   return (
     <div className="banner-Bg-Img-style">
       <h3 className="banner-heading-style">
