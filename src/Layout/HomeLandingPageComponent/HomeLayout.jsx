@@ -51,7 +51,12 @@ function HomeLayout() {
                   "
                   moreHeadingThreeText="just an email address and password."
       />
-      <CustomersBanner />
+      <CustomersBanner
+      bannerText={`Join 200M 
+       active PayPal  accounts worldwide.`}
+      heading = "Safer and protected"
+
+       />
     </div>
   );
 }
