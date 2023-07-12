@@ -9,6 +9,7 @@ import Learn from "../../components/learnMore/Learn";
 import CardOne from "../../images/buyonline_browser1.png";
 import CardTwo from "../../images/buyonline_browser2.png";
 import CardThree from "../../images/buyonline_browser3.png";
+import CustomersBanner from "../../components/customersBannerComponent/CustomersBanner";
 
 function HomeLayout() {
   return (
@@ -50,6 +51,12 @@ function HomeLayout() {
                   "
                   moreHeadingThreeText="just an email address and password."
       />
+      <CustomersBanner
+      bannerText={`Join 200M 
+       active PayPal  accounts worldwide.`}
+      heading = "Safer and protected"
+
+       />
     </div>
   );
 }

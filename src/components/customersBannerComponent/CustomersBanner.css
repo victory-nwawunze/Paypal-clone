@@ -1,0 +1,44 @@
+.CustomerHeadingBanner-style{
+    background-color: #003087;
+    padding-left: 70px ;
+    padding-right: 70px ;
+}
+.heading-text-style{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    color: #ffff;
+}
+.customerHeadingBanner-container-style{
+    padding-top: 80px;
+    color: #ffff;
+}
+.customerHeadingBannerText-flex-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-style{
+    font-size: 25px;
+    padding-bottom: 10px;
+    line-height: 1em;
+}
+.text-description-style{
+    font-size: 15px;
+    line-height: 23px;
+}
+.btn-style{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-bottom: 10%;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    font-size: 13px;
+    background-color: #003087;
+    border: none;
+    text-decoration: dashed;
+}
