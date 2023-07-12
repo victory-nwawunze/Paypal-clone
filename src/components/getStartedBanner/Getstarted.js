@@ -1,10 +1,11 @@
 import React from "react";
 import "./Getstarted.css";
-const Getstarted = () => {
+const Getstarted = (props) => {
+  const {contentText,btnText} = props
   return (
     <div className="get-started-container-style">
-      <h2>Sign up and get started.</h2>
-      <button>Get started</button>
+      <h2>{contentText}</h2>
+      <button>{btnText}</button>
     </div>
   );
 };

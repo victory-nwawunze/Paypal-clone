@@ -11,6 +11,7 @@ import CardTwo from "../../images/buyonline_browser2.png";
 import CardThree from "../../images/buyonline_browser3.png";
 import CustomersBanner from "../../components/customersBannerComponent/CustomersBanner";
 import Getstarted from "../../components/getStartedBanner/Getstarted";
+import Footer from "../../components/footer/Footer";
 
 function HomeLayout() {
   return (
@@ -57,7 +58,11 @@ function HomeLayout() {
        active PayPal  accounts worldwide.`}
       heading = "Safer and protected"
        />
-       <Getstarted />
+       <Getstarted 
+        contentText="Sign up and get started."
+        btnText="Get started"
+       />
+       <Footer />
     </div>
   );
 }
