@@ -13,6 +13,7 @@ import CustomersBanner from "../../components/customersBannerComponent/Customers
 import Getstarted from "../../components/getStartedBanner/Getstarted";
 import Footer from "../../components/footer/Footer";
 
+
 function HomeLayout() {
   return (
     <div>
