@@ -1,0 +1,18 @@
+.footer-links{
+    text-align: center;
+    display: flex;
+}
+.footer-container{
+    margin-left: 37%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-style{
+    margin-top: 10px;
+    background-color: #f7f9fa;
+}
+.footer-links > li{
+    padding-left: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}

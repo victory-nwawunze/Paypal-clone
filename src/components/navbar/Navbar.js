@@ -16,7 +16,7 @@ const Navbar = (props) => {
                 <div className="navbar-btn-container-style">
                         <div className="navbar-btn-flex-style">
                             <Link to="/signIn" className="login-btn-style">{LoginBtn}</Link>
-                            <button className="sign-up-btn-style">{signUpBtn}</button>
+                            <button className="Nav-sign-up-btn-style">{signUpBtn}</button>
                         </div>
                 </div>
             </div>
