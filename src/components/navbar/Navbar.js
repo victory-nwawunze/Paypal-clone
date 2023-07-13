@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom"
 import "./Navbar.css"
 import { AiOutlineDown } from 'react-icons/ai';
 const Navbar = (props) => {
@@ -15,7 +15,7 @@ const Navbar = (props) => {
                 </ul>
                 <div className="navbar-btn-container-style">
                         <div className="navbar-btn-flex-style">
-                            <button className="login-btn-style">{LoginBtn}</button>
+                            <Link to="/signIn" className="login-btn-style">{LoginBtn}</Link>
                             <button className="sign-up-btn-style">{signUpBtn}</button>
                         </div>
                 </div>

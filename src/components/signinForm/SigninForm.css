@@ -1,0 +1,46 @@
+.Logo-style{
+    width: 17%;
+    padding-left: 40%;
+}
+.signInForm-container-style{
+    background-color: white;
+}
+.signInForm-style{
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.form-input-container{
+    margin-left: 20%;
+}
+.input-style{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 35%;
+    outline: none;
+    border: 1px solid #9DA3A6;
+    margin-bottom: 3%;
+}
+.input-style::placeholder{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.input-style:focus{
+    box-shadow: 0 0 9px #1072EB;
+}
+.forget-email-btn-style{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 40px;
+font-size: 19px;
+font-weight: 300;
+background-color: white;
+border: none;
+cursor: pointer;
+color: #1072EB;
+}
