@@ -5,6 +5,7 @@ import FlagLogo from '../../images/Nigeria-Flag-icon-removebg-preview.png'
 import { AiOutlineArrowDown } from "react-icons/ai";
 import {Formik,Form,Field,ErrorMessage} from 'formik'
 import * as Yup from 'yup'
+import SigninFooter from "../signinFooter/SigninFooter";
 const SigninForm = () => {
   // Initialize Email
   const initialValues = {
@@ -18,7 +19,8 @@ const SigninForm = () => {
     console.log(values)
   }
   return (
-   <Formik
+  <>
+     <Formik
    initialValues={initialValues}
    validationSchema={validationSchema}
    onSubmit={handleSubmit}
@@ -35,10 +37,10 @@ const SigninForm = () => {
           <button className="forget-email-btn-style">Forget email ?</button>
         </div>
         <div className="form-input-container">
-          <button className="next-btn-style">Next</button>
+          <button className="next-btn-style" onSubmit={handleSubmit}>Next</button>
         </div>
         <div className="form-input-container">
-        <button className="sign-up-btn-style">Sign Up</button>
+        <button className="sign-up-btn-style" onSubmit={handleSubmit}>Sign Up</button>
           </div>
         <div className="form-input-container">
         <div className="form-flag-container-style">
@@ -52,6 +54,8 @@ const SigninForm = () => {
       </div>
     </Form>
    </Formik>
+   <SigninFooter />
+  </>
   );
 };
 
