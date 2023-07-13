@@ -28,7 +28,7 @@ const SigninForm = () => {
     <Form>
     <div className="signInForm-container-style">
       <div className="signInForm-style">
-        <img src={PaypalLogo} alt="Paypal-Logo" className="Logo-style" />
+        <img src={PaypalLogo} alt="Paypal-Logo" className="paypal-Logo-style" />
         <div className="form-input-container">
           <Field type="email" id="email" name="email" placeholder="Email or mobile number" className="input-style" />
           <ErrorMessage name="email" component="div"  className="errorMessage-style"/>

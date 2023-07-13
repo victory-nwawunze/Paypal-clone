@@ -1,7 +1,9 @@
-.Logo-style{
+.paypal-Logo-style{
     width: 30%;
     padding-left: 35%;
 }
+
+
 .signInForm-container-style{
     background-color: white;
 }
@@ -35,16 +37,16 @@
     box-shadow: 0 0 9px #1072EB;
 }
 .forget-email-btn-style{
-padding-top: 10px;
-padding-bottom: 10px;
-padding-right: 40px;
-font-size: 19px;
-font-weight: 300;
-background-color: white;
-border: none;
-cursor: pointer;
-color: #1072EB;
-margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    font-size: 19px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: #1072EB;
+    margin-bottom: 5%;
 }
 .next-btn-style{
     padding-top: 12px;
@@ -79,11 +81,12 @@ margin-bottom: 5%;
     text-align: center;
 }
 .form-flag-container-style{
-    /* text-align: center; */
+    
     margin-left: 35%;
     margin-bottom: 10%;
     cursor: pointer;
 }
+
 .form-flag-flex-style{
     display: flex;
     align-items: center;
