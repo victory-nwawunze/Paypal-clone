@@ -6,8 +6,8 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import SigninForm from "./components/signinForm/SigninForm";
 import React from "react";
+import LoginFormLayout from "./Layout/LoginFormPageComponent/LoginFormLayout";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             <HomeLayout />
           </Route>
           <Route path="/signIn">
-            <SigninForm />
+            <LoginFormLayout />
           </Route>
         </Switch>
       </Router>
