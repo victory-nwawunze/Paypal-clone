@@ -1,5 +1,6 @@
 import React from "react";
 import "./Banner.css";
+import {Link} from "react-router-dom"
 const Banner = (props) => {
   const { headingText, signUpBtnText, businessText, openBusinessAcctText } =
     props;
@@ -8,7 +9,7 @@ const Banner = (props) => {
       <h3 className="banner-heading-style">
         {headingText}
       </h3>
-      <button className="signUp-Btn-style">{signUpBtnText}</button>
+      <Link to="/signUp" className="signUp-Btn-style">{signUpBtnText}</Link>
       <h5 className="Business-acct-btn-style">
         {businessText}<span>{openBusinessAcctText}</span>
       </h5>
