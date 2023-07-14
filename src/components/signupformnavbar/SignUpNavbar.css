@@ -1,0 +1,31 @@
+.signUp-navbar-container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Sign-up-navbar-container-style{
+    margin: auto;
+    width: 60%;
+    margin-top: 20px;
+}
+.flag-style-flex{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo-size{
+    width: 30px;
+    padding-right: 10px;
+}
+.Icon-size{
+    font-size: 25px;
+}
+.Paypal-logo{
+    width: 130px;
+}
+.login-style{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0070E0;
+}

@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import React from "react";
 import LoginFormLayout from "./Layout/LoginFormPageComponent/LoginFormLayout";
+import SignUpPageLayout from "./Layout/SignUpFormPageComponent/SignUpPageLayout";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/signIn">
             <LoginFormLayout />
+          </Route>
+          <Route path="/signUp">
+            <SignUpPageLayout />
           </Route>
         </Switch>
       </Router>
