@@ -1,9 +1,14 @@
 import React from "react";
-import "./SignUpForm.css"
+import "./SignUpForm.css";
 const SignUpForm = () => {
-  return(
-    <div><h1>SignUpForm</h1></div>
-  )
-}
+  return (
+    <div>
+      <div className="signup-form-container">
+      <h1>Sign up for PayPal</h1>
+      <p>First, add your mobile number</p>
+      </div>
+    </div>
+  );
+};
 
 export default SignUpForm;

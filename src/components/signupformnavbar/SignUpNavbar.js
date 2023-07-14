@@ -3,6 +3,7 @@ import "./SignUpNavbar.css";
 import CountryFlag from "../../images/Nigeria-Flag-icon-removebg-preview.png";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import PaypalLogo from "../../images/paypal-logo-removebg-preview.png";
+import {Link} from "react-router-dom"
 function Signupnavbar() {
   return (
     <div className="Sign-up-navbar-container-style">
@@ -22,7 +23,7 @@ function Signupnavbar() {
         </div>
         <div>
           <div>
-            <p className="login-style">Log in</p>
+            <Link to="/signIn" className="login-style">Log in</Link>
           </div>
         </div>
       </div>

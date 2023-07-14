@@ -6,7 +6,7 @@ const SignUpPageLayout = () => {
   return (
     <div>
     <Signupnavbar />
-      {/* <SignUpForm /> */}
+      <SignUpForm />
 
     </div>
   );

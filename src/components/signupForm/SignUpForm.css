@@ -1,0 +1,12 @@
+.signup-form-container{
+    text-align: center;
+}
+.signup-form-container > h1{
+    font-size: 30px;
+    color: #001435;
+    padding-bottom: 15px;
+}
+.signup-form-container > p{
+    color: #171435;
+    font-size: 18px;
+}
