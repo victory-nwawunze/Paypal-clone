@@ -5,8 +5,8 @@
 }
 .Sign-up-navbar-container-style{
     margin: auto;
-    width: 60%;
-    margin-top: 20px;
+    width: 43%;
+    /* margin-top: 20px; */
 }
 .flag-style-flex{
     display: flex;
@@ -22,10 +22,12 @@
 }
 .Paypal-logo{
     width: 130px;
+    cursor: pointer;
 }
 .login-style{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     color: #0070E0;
+    text-decoration: none;
 }
