@@ -13,7 +13,7 @@ const SigninForm = () => {
   }
   // Validate Schema
   const validationSchema = Yup.object({
-    email: Yup.string().email("Invalid email").required("Your Email is Require")
+    email: Yup.string().email("Invalid email").required("Your Email is Require *")
   })
   const handleSubmit = (values) =>{
     console.log(values)

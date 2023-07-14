@@ -1,12 +1,36 @@
-.signup-form-container{
-    text-align: center;
-}
+
 .signup-form-container > h1{
     font-size: 30px;
+    text-align: center;
     color: #001435;
     padding-bottom: 15px;
 }
 .signup-form-container > p{
     color: #171435;
+    text-align: center;
     font-size: 18px;
+    padding-bottom: 40px;
+}
+.signUp-input-container{
+    margin-left: 30%;
+    /* margin-top: 10px; */
+}
+.signUp-input-style{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 38%;
+    outline: none;
+    border: 1px solid #9DA3A6;
+    margin-bottom: 10px;
+}
+.signUp-input-style::placeholder{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.signUp-input-style:focus{
+        box-shadow: 0 0 15px #C40B0B;
+ 
 }
