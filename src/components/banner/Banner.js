@@ -11,7 +11,7 @@ const Banner = (props) => {
       </h3>
       <Link to="/signUp" className="signUp-Btn-style">{signUpBtnText}</Link>
       <h5 className="Business-acct-btn-style">
-        {businessText}<span>{openBusinessAcctText}</span>
+        {businessText}<Link to="/checkOutForm" className="styl-link">{openBusinessAcctText}</Link>
       </h5>
     </div>
   );

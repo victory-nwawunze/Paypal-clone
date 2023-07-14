@@ -27,7 +27,7 @@ function HomeLayout() {
         headingText="The simpler, safer way to pay online."
         signUpBtnText="Sign up for free"
         businessText="Own a business?"
-        openBusinessAcctText="Open a business account."
+        openBusinessAcctText="Open a Business account."
       />
       <PaypalDesc
         headingText="PayPal is for everyone who pays online."
