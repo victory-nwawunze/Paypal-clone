@@ -34,3 +34,27 @@
         box-shadow: 0 0 15px #C40B0B;
  
 }
+.input-text-footer-style{
+    margin-left: 30%;
+    margin-top: 8px;
+    color: #54626C;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Nxt-btn-style{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 25px;
+    border: 1px solid #0070BA;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #003087;
+    color: #fff;
+    margin-bottom: 19%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
