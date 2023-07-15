@@ -1,3 +1,56 @@
-.checkout-container-style{
+.checkout-bg{
     background-color: #F7F9FA;
+    padding-top: 5%;
+    /* padding-bottom: 20%; */
+}
+.MyPaypal-style{
+    width: 50px;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.checkout-form{
+    background-color: white;
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;
+}
+.checkout-signUp-text{
+    padding-left: 15%;
+    padding-top: 5%;
+    font-size: 33px;
+}
+.checkout-text-style{
+    padding-top: 10%;
+    padding-left: 15%;
+    font-size: 20px;
+    padding-bottom:4%;
+}
+.Checkout-signUp-input-style{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 38%;
+    outline: none;
+    border: 1px solid #9DA3A6;
+    margin-bottom: 10px;
+    margin-left: 15%;
+}
+.continue-btn-style{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30%;
+    padding-right: 30%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #0070BA;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 14%;
+    margin-top: 30px;
+    margin-bottom: 20%;
 }
