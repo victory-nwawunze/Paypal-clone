@@ -4,6 +4,7 @@ import PaypalLogo from "../../images/paypal-logo-removebg-preview.png";
 import FlagLogo from '../../images/Nigeria-Flag-icon-removebg-preview.png'
 import { AiOutlineArrowDown } from "react-icons/ai";
 import {Formik,Form,Field,ErrorMessage} from 'formik'
+import {Link} from 'react-router-dom'
 import * as Yup from 'yup'
 import SigninFooter from "../signinFooter/SigninFooter";
 const SigninForm = () => {
@@ -28,7 +29,7 @@ const SigninForm = () => {
     <Form>
     <div className="signInForm-container-style">
       <div className="signInForm-style">
-        <img src={PaypalLogo} alt="Paypal-Logo" className="paypal-Logo-style" />
+        <Link to="/"><img src={PaypalLogo} alt="Paypal-Logo" className="paypal-Logo-style" /></Link>
         <div className="form-input-container">
           <Field type="email" id="email" name="email" placeholder="Email or mobile number" className="input-style" />
           <ErrorMessage name="email" component="div"  className="errorMessage-style"/>
