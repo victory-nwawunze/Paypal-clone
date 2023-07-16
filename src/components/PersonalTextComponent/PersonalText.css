@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.paypal-text-style{
+    text-align: center;
+    padding-top: 7%;
+  
+}
+.paypal-text-style > h2{
+    padding-top: 90px;
+    font-size: 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5%;
+}
+.paypal-text-style > h3{
+    font-size: 2.1rem;
+    font-family: 'Montserrat', sans-serif;
+}

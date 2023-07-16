@@ -3,6 +3,7 @@ import PersonalBannerComponent from "../../components/personalBanner/PersonalBan
 import Navbar from "../../components/navbar/Navbar";
 import Logo from '../../images/paypal-logo-removebg-preview.png'
 import Banner from "../../components/banner/Banner";
+import PersonalText from "../../components/PersonalTextComponent/PersonalText";
 
 const PersonalLayout = () => {
   return(
@@ -14,6 +15,7 @@ const PersonalLayout = () => {
         signUpBtn="Sign up"
      />
     <PersonalBannerComponent />
+    <PersonalText />
     </div>
   )
 }
