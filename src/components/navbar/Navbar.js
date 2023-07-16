@@ -8,7 +8,7 @@ const Navbar = (props) => {
     <div>
         <div className="navbar-container-style">
             <div className="navbar-flex-style">
-                <img src={logo} className="Logo-style" alt="Logo" />
+               <Link to="/"> <img src={logo} className="Logo-style" alt="Logo" /></Link>
                 <ul className="navbar-link">
                     <li>{navText}</li>
                     <AiOutlineDown className="Down-Icon-style" alt="Down-icon" />

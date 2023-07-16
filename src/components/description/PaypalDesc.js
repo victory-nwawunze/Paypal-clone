@@ -1,5 +1,6 @@
 import React from "react";
 import "./PaypalDesc.css";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const PaypalDesc = (props) => {
   const { headingText, img, headingDescriptionText, reasonText, learnMoreBtn } =
@@ -14,7 +15,7 @@ const PaypalDesc = (props) => {
       />
       <h5>{headingDescriptionText}</h5>
       <p>{reasonText}</p>
-      <button>{learnMoreBtn}</button>
+      <Link to="/personalLayout" className="LearnMore-Btn">{learnMoreBtn}</Link>
     </div>
   );
 };

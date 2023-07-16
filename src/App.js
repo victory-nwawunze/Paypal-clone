@@ -10,6 +10,7 @@ import React from "react";
 import LoginFormLayout from "./Layout/LoginFormPageComponent/LoginFormLayout";
 import SignUpPageLayout from "./Layout/SignUpFormPageComponent/SignUpPageLayout";
 import CheckOutFormLayout from "./Layout/CheckOutFormLayout/CheckOutFormLayout";
+import PersonalLayout from "./Layout/PersonalLayoutComponent/PersonalLayout";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/checkOutForm">
             <CheckOutFormLayout />
+          </Route>
+          <Route path="/personalLayout">
+            <PersonalLayout />
           </Route>
         </Switch>
       </Router>
