@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 .get-started-container-style{
     text-align: center;
     background-color: #f9f7fa;
@@ -6,6 +7,7 @@
 .get-started-container-style > h2{
     font-size: 30px;
     padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 .get-started-container-style > button{
     padding-top: 18px;
