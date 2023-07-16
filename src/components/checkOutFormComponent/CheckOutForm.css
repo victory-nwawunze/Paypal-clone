@@ -1,7 +1,7 @@
 .checkout-bg{
     background-color: #F7F9FA;
     padding-top: 5%;
-    /* padding-bottom: 20%; */
+    padding-bottom: 5%;
 }
 .MyPaypal-style{
     width: 50px;
@@ -18,12 +18,15 @@
     padding-left: 15%;
     padding-top: 5%;
     font-size: 33px;
+    color: #666666;
 }
 .checkout-text-style{
     padding-top: 10%;
     padding-left: 15%;
     font-size: 20px;
     padding-bottom:4%;
+    color: #666666;
+   
 }
 .Checkout-signUp-input-style{
     padding-top: 25px;
@@ -53,4 +56,8 @@
     margin-left: 14%;
     margin-top: 30px;
     margin-bottom: 20%;
+}
+.email-errorMessage-style{
+    padding-left: 15%;
+    color: red;
 }

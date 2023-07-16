@@ -18,7 +18,7 @@ function Signupnavbar() {
         </div>
         <div>
           <div>
-            <img src={PaypalLogo} className="Paypal-logo" />
+            <Link to="/"><img src={PaypalLogo} className="Paypal-logo" /></Link>
           </div>
         </div>
         <div>

@@ -1,0 +1,29 @@
+.checkOut-footer-container-style{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 15%;
+    background-color: white;
+    /* margin-top: 10px; */
+}
+.checkout-footer-flex-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkout-footer-flex-link-style{
+    display: flex;
+    align-items: center;
+}
+.footer-copyright-text-style{
+    color: #6C7378;
+    font-size: 10;
+    cursor: pointer;
+}
+.checkout-footer-flex-link-style > li{
+    padding-right: 10px;
+    color: #666666;
+    font-size: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+}
